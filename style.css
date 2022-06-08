@@ -54,7 +54,7 @@ a:hover {
 h2 {
     font-size: 48px;
     margin: 0;
-    color:white
+    color: white
 }
 
 #welcome {
@@ -72,10 +72,28 @@ h2 {
 }
 
 #register-one:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #anime-girl {
     height: 400px;
     width: auto;
+}
+
+.two {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#two {
+    font-size: 32px;
+    text-align: center;
+}
+
+.anime {
+    display: flex;
+    flex-wrap: wrap;
 }
