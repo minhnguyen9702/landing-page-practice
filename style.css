@@ -1,17 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pink {
+    background-color: pink;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: pink;
+    margin: 16px 64px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.icon {
+    height: 100px;
+    width: auto;
 }
 
 h1 {
