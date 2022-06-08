@@ -12,12 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: pink;
-    margin: 16px 64px;
+    padding: 16px 64px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .icon {
@@ -26,5 +27,18 @@ body {
 }
 
 h1 {
+    font-size: 36px;
+    color: white;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
     font-size: 24px;
 }
