@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: pink;
-    padding: 16px 64px;
+    padding: 16px 128px;
     gap: 36px;
 }
 
@@ -38,7 +38,7 @@ h1 {
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 a {
