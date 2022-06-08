@@ -8,10 +8,10 @@ body {
     background-color: pink;
 }
 
-.header {
+.header,
+.one {
     display: flex;
     justify-content: space-between;
-    background-color: pink;
     padding: 16px 256px;
     gap: 36px;
 }
@@ -51,13 +51,6 @@ a:hover {
     color: black;
 }
 
-.one {
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 256px;
-    gap: 24px;
-}
-
 h2 {
     font-size: 48px;
     margin: 0;
@@ -67,6 +60,19 @@ h2 {
 #welcome {
     color: whitesmoke;
     font-size: 18px;
+}
+
+#register-one {
+    background-color: lightcyan;
+    color: grey;
+    border-color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 18px 32px;
+}
+
+#register-one:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #anime-girl {
