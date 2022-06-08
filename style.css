@@ -64,7 +64,7 @@ h2 {
 
 #register-one {
     background-color: lightcyan;
-    color: grey;
+    color: dimgray;
     border-color: white;
     border-radius: 12px;
     font-size: 16px;
@@ -84,16 +84,20 @@ h2 {
     background-color: lightcyan;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
 #two {
     font-size: 32px;
+    font-weight: bold;
     text-align: center;
+    color: dimgray;
 }
 
 .anime {
     display: flex;
+    gap: 36px;
     flex-wrap: wrap;
 }
